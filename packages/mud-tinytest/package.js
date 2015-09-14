@@ -23,6 +23,8 @@ Package.onTest(function (api) {
        '../../lib/item.js',
        '../../lib/monster.js',
        '../../lib/room.js',
+       '../../lib/player.js',
+       '../../lib/dungeon.js',
     ]);
     api.addFiles(['mud-tinytest.js','mud-tinytest-tests.js']);
 });
